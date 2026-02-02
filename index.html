@@ -1,23 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chatflow Connect</title>
-  <meta name="description" content="Chatflow Connect is a software platform for WhatsApp communication and customer support." />
+
+  <meta
+    name="description"
+    content="Chatflow Connect é uma plataforma de software para comunicação e atendimento via WhatsApp para empresas."
+  />
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #020617;
+      --primary: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+
+    main {
+      max-width: 720px;
+      width: 100%;
+      background: rgba(2, 6, 23, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+      color: var(--primary);
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1.05rem;
+      color: var(--text);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-size: 1.1rem;
+    }
+
+    .section {
+      margin-bottom: 28px;
+    }
+
+    footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(148, 163, 184, 0.2);
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer strong {
+      color: var(--text);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Chatflow Connect</h1>
+  <main>
+    <h1>Chatflow Connect</h1>
+    <p class="subtitle">
+      Plataforma de software para comunicação e atendimento via WhatsApp.
+    </p>
 
-  <p>
-    Chatflow Connect is a software platform for business communication and customer support via WhatsApp.
-  </p>
+    <section class="section">
+      <p>
+        O Chatflow Connect é uma solução focada em ajudar empresas a organizarem
+        conversas, automatizarem fluxos de mensagens e realizarem atendimento
+        eficiente via WhatsApp, utilizando integrações oficiais da plataforma.
+      </p>
+    </section>
 
-  <p>
-    Contact: <a href="mailto:contato@chatflowconnect.com">contato@chatflowconnect.com</a>
-  </p>
+    <section class="section">
+      <p>
+        Nosso objetivo é oferecer uma infraestrutura segura e escalável para
+        comunicação empresarial, respeitando as políticas da Meta e do WhatsApp.
+      </p>
+    </section>
 
-  <footer>
-    <p>© Chatflow Connect</p>
-  </footer>
+    <footer>
+      <p>
+        <strong>Razão Social:</strong> Davi Augusto de Oliveira
+      </p>
+      <p>
+        <strong>Contato:</strong>
+        <a href="mailto:contato@chatflowconnect.com">
+          contato@chatflowconnect.com
+        </a>
+      </p>
+      <p>
+        © Chatflow Connect
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
